@@ -1,0 +1,58 @@
+
+Ligne de fonction en PHP pour faire les tests avec PHPUnit
+Assertions
+
+        assertArrayHasKey()
+        assertClassHasAttribute()
+        assertClassHasStaticAttribute()
+        assertContains()
+        assertContainsOnly()
+        assertContainsOnlyInstancesOf()
+        assertCount()
+        assertEmpty()
+        assertEqualXMLStructure()
+        assertEquals()
+        assertFalse()
+        assertFileEquals()
+        assertFileExists()
+        assertGreaterThan()
+        assertGreaterThanOrEqual()
+        assertInstanceOf()
+        assertInternalType()
+        assertJsonFileEqualsJsonFile()
+        assertJsonStringEqualsJsonFile()
+        assertJsonStringEqualsJsonString()
+        assertLessThan()
+        assertLessThanOrEqual()
+        assertNull()
+        assertObjectHasAttribute()
+        assertRegExp()
+        assertStringMatchesFormat()
+        assertStringMatchesFormatFile()
+        assertSame()
+        assertSelectCount()
+        assertSelectEquals()
+        assertSelectRegExp()
+        assertStringEndsWith()
+        assertStringEqualsFile()
+        assertStringStartsWith()
+        assertTag()
+        assertThat()
+        assertTrue()
+        assertXmlFileEqualsXmlFile()
+        assertXmlStringEqualsXmlFile()
+        assertXmlStringEqualsXmlString()
+	
+Code minimun pour une classe de tests:
+<?php
+/**
+ * Classe pour l'ensembles des tests
+ *
+ */
+class exploitTests extends \PHPUnit_Framework_TestCase{
+
+    }
+}
+
+?>
+	
